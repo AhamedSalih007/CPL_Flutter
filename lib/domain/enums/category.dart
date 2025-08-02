@@ -1,0 +1,4 @@
+enum CategoryType {
+  cpl,
+  wcpl;
+}

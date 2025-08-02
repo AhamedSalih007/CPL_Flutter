@@ -1,0 +1,139 @@
+name: cpl
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 7.0.12+107
+
+environment:
+    sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+    flutter:
+        sdk: flutter
+
+    scroll_loop_auto_scroll: ^0.0.5
+    carousel_slider: ^4.2.1
+    #Localizations
+    intl: ^0.18.1
+
+    #State management
+    flutter_riverpod: ^2.4.9
+    riverpod_annotation: ^2.3.3
+
+    #Routing
+    auto_route: ^7.8.4
+
+    #Responsiveness
+    flutter_screenutil: ^5.9.0
+
+    #Permissions
+    permission_handler: ^11.1.0
+
+    #HttpClient
+    dio: ^5.4.0
+
+    #Storage
+    flutter_secure_storage: ^9.0.0
+    hive: ^2.2.3
+    hive_flutter: ^1.1.0
+
+    #Code generation
+    json_annotation: ^4.8.1
+    freezed_annotation: ^2.4.1
+
+    #Image
+    cached_network_image: ^3.3.1
+    flutter_svg: ^2.0.9
+
+    #Logging
+    loggy: ^2.0.3
+    flutter_loggy_dio: ^3.0.1
+
+    #Connectivity
+    connectivity_plus: ^5.0.2
+
+    #Environment
+    envied: ^0.5.3
+
+    #Loader
+    shimmer: ^3.0.0
+
+    #Tools
+    cupertino_icons: ^1.0.6
+    path_provider: ^2.1.1
+    path: ^1.8.3
+    lottie: ^3.1.0
+
+    #html
+    flutter_html: ^3.0.0-beta.2
+    url_launcher: ^6.1.10
+
+    #youtube
+    youtube_player_flutter: ^8.1.0
+    firebase_core: ^2.27.0
+    onesignal_flutter: ^5.2.0
+    fl_chart: ^0.68.0
+    
+    #cue
+    # flutter_cue_light_show_sdk: ^1.1.2
+
+dependency_overrides:
+  flutter_cue_light_show_sdk:
+    git:
+      url: https://github.com/CUEAudio/flutter-cue-light-show-sdk.git
+      ref: develop
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_localizations:
+        sdk: flutter
+    flutter_lints: ^3.0.1
+    custom_lint: ^0.5.8
+    riverpod_lint: ^2.3.7
+    build_runner: ^2.4.7
+    hive_generator: ^2.0.1
+    auto_route_generator: ^7.3.2
+    json_serializable: ^6.7.1
+    freezed: ^2.4.6
+    mockito: ^5.4.4
+    flutter_gen_runner: ^5.4.0
+    envied_generator: ^0.5.3
+    riverpod_generator: ^2.3.9
+
+
+flutter_gen:
+    output: lib/core/utils/assets_gen/ # Optional (default: lib/gen/)
+
+    integrations:
+        flutter_svg: true
+        flare_flutter: true
+        rive: true
+
+flutter:
+    generate: true
+    uses-material-design: true
+
+    assets:
+        - assets/icons/
+        - assets/images/
+        - assets/lottie/
+
+    fonts:
+        - family: AnekOdia
+          fonts:
+              - asset: assets/fonts/AnekOdia-Bold.ttf
+              - asset: assets/fonts/AnekOdia-ExtraBold.ttf
+              - asset: assets/fonts/AnekOdia-ExtraLight.ttf
+              - asset: assets/fonts/AnekOdia-Light.ttf
+              - asset: assets/fonts/AnekOdia-Medium.ttf
+              - asset: assets/fonts/AnekOdia-Regular.ttf
+              - asset: assets/fonts/AnekOdia-SemiBold.ttf
+              - asset: assets/fonts/AnekOdia-Thin.ttf
+        - family: CPLT20
+          fonts:
+              - asset: assets/fonts/CPLT20-Headline.otf
+
+flutter_intl:
+    enabled: true

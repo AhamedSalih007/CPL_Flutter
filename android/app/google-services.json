@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1007839730818",
+    "project_id": "cplt20-f98b2",
+    "storage_bucket": "cplt20-f98b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007839730818:android:89e6f7e88def29e6ca689b",
+        "android_client_info": {
+          "package_name": "kadambatech.cpl"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJXsBMShXFfZkCQoCByBxr52rWLh-mHKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

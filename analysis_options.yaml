@@ -1,0 +1,25 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  plugins:
+    - custom_lint
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.gr.dart"
+    - "**/*.gen.dart"
+  errors:
+    invalid_annotation_target: ignore
+    todo: ignore
+
+linter:
+  rules:
+    prefer_relative_imports: true
+    avoid_classes_with_only_static_members: false
+    always_use_package_imports: false
+    sort_pub_dependencies: false
+    avoid_renaming_method_parameters: false
+    use_super_parameters: true
+    # sort_constructors_first: true
+    # prefer_double_quotes: true
+    # prefer_single_quotes: true

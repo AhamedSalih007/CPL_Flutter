@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>primaryColor</key>
+	<string>#FF0000</string>
+	<key>apiKey</key>
+	<string>HnzpQAz6xC4Zmjp2qRFrVehR00zI55vJ</string>
+	<key>hasExit</key>
+	<true/>
+	<key>hasExitOnHomescreen</key>
+	<false/>
+	<key>shouldShowNotificationOnboarding</key>
+	<false/>
+</dict>
+</plist>

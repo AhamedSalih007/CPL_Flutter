@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 publish_to: "none"
 
-version: 7.0.12+107
+version: 7.0.15+110
 
 environment:
     sdk: '>=3.0.1 <4.0.0'
@@ -76,13 +76,16 @@ dependencies:
     fl_chart: ^0.68.0
     
     #cue
-    # flutter_cue_light_show_sdk: ^1.1.2
+    flutter_cue_light_show_sdk: ^1.0.7
+    new_version_plus: ^0.0.11
 
-dependency_overrides:
-  flutter_cue_light_show_sdk:
-    git:
-      url: https://github.com/CUEAudio/flutter-cue-light-show-sdk.git
-      ref: develop
+    package_info_plus: ^4.0.2
+
+
+# dependency_overrides:
+#   flutter_cue_light_show_sdk:
+#     git:
+#       url: https://github.com/CUEAudio/flutter-cue-light-show-sdk.git
 
 dev_dependencies:
     flutter_test:

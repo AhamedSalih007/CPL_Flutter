@@ -29,6 +29,10 @@
 
 <key>NSMicrophoneUsageDescription</key>
 <string>This app needs access to the microphone to participate in light shows.</string>
+<key>NSCameraUsageDescription</key>
+<string>This app needs camera access to record or capture media.</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>This app needs photo library access to select photos or videos.</string>
 
 	<key>LSApplicationQueriesSchemes</key>
 	<array>

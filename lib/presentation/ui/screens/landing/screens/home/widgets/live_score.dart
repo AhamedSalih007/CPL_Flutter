@@ -88,7 +88,7 @@ class _LiveScoreState extends ConsumerState<LiveScore> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  UIDimensions.verticalSpace(24),
+                  UIDimensions.verticalSpace(14),
                   Header(
                     title: "Matches",
                     arrowCount: 5,

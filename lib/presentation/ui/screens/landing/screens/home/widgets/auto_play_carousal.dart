@@ -32,6 +32,7 @@ class _AutoPlayCarousalState extends ConsumerState<AutoPlayCarousal> {
   @override
   Widget build(BuildContext context) {
     var bannersState = ref.watch(marketingBannerNotifierProvider);
+    // print("banner${bannersState}");
     List<Color> titleColors = [
       context.colorScheme.secondary,
       context.colorScheme.onSurface,
